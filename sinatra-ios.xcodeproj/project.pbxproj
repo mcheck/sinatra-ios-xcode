@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6661215115CB13AC00A75A2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6661215015CB13AC00A75A2D /* UIKit.framework */; };
+		6661215315CB13AC00A75A2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6661215215CB13AC00A75A2D /* Foundation.framework */; };
+		6661215515CB13AC00A75A2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6661215415CB13AC00A75A2D /* CoreGraphics.framework */; };
+		6661215B15CB13AC00A75A2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6661215915CB13AC00A75A2D /* InfoPlist.strings */; };
+		6661215D15CB13AC00A75A2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6661215C15CB13AC00A75A2D /* main.m */; };
+		6661216115CB13AC00A75A2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6661216015CB13AC00A75A2D /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6661214C15CB13AC00A75A2D /* sinatra-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sinatra-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6661215015CB13AC00A75A2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6661215215CB13AC00A75A2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6661215415CB13AC00A75A2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6661215815CB13AC00A75A2D /* sinatra-ios-Info.plist */ = {isa = PBXFileReference; path = "sinatra-ios-Info.plist"; sourceTree = "<group>"; };
+		6661215A15CB13AC00A75A2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6661215C15CB13AC00A75A2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6661215E15CB13AC00A75A2D /* sinatra-ios-Prefix.pch */ = {isa = PBXFileReference; path = "sinatra-ios-Prefix.pch"; sourceTree = "<group>"; };
+		6661215F15CB13AC00A75A2D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6661216015CB13AC00A75A2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6661214915CB13AC00A75A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6661215115CB13AC00A75A2D /* UIKit.framework in Frameworks */,
+				6661215315CB13AC00A75A2D /* Foundation.framework in Frameworks */,
+				6661215515CB13AC00A75A2D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6661214115CB13AC00A75A2D = {
+			isa = PBXGroup;
+			children = (
+				6661215615CB13AC00A75A2D /* sinatra-ios */,
+				6661214F15CB13AC00A75A2D /* Frameworks */,
+				6661214D15CB13AC00A75A2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6661214D15CB13AC00A75A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6661214C15CB13AC00A75A2D /* sinatra-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6661214F15CB13AC00A75A2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6661215015CB13AC00A75A2D /* UIKit.framework */,
+				6661215215CB13AC00A75A2D /* Foundation.framework */,
+				6661215415CB13AC00A75A2D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6661215615CB13AC00A75A2D /* sinatra-ios */ = {
+			isa = PBXGroup;
+			children = (
+				6661215F15CB13AC00A75A2D /* AppDelegate.h */,
+				6661216015CB13AC00A75A2D /* AppDelegate.m */,
+				6661215715CB13AC00A75A2D /* Supporting Files */,
+			);
+			path = "sinatra-ios";
+			sourceTree = "<group>";
+		};
+		6661215715CB13AC00A75A2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6661215815CB13AC00A75A2D /* sinatra-ios-Info.plist */,
+				6661215915CB13AC00A75A2D /* InfoPlist.strings */,
+				6661215C15CB13AC00A75A2D /* main.m */,
+				6661215E15CB13AC00A75A2D /* sinatra-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6661214B15CB13AC00A75A2D /* sinatra-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6661216415CB13AC00A75A2D /* Build configuration list for PBXNativeTarget "sinatra-ios" */;
+			buildPhases = (
+				6661214815CB13AC00A75A2D /* Sources */,
+				6661214915CB13AC00A75A2D /* Frameworks */,
+				6661214A15CB13AC00A75A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sinatra-ios";
+			productName = "sinatra-ios";
+			productReference = 6661214C15CB13AC00A75A2D /* sinatra-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6661214315CB13AC00A75A2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Solo Group, Inc.";
+			};
+			buildConfigurationList = 6661214615CB13AC00A75A2D /* Build configuration list for PBXProject "sinatra-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6661214115CB13AC00A75A2D;
+			productRefGroup = 6661214D15CB13AC00A75A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6661214B15CB13AC00A75A2D /* sinatra-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6661214A15CB13AC00A75A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6661215B15CB13AC00A75A2D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6661214815CB13AC00A75A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6661215D15CB13AC00A75A2D /* main.m in Sources */,
+				6661216115CB13AC00A75A2D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6661215915CB13AC00A75A2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6661215A15CB13AC00A75A2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6661216215CB13AC00A75A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6661216315CB13AC00A75A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6661216515CB13AC00A75A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sinatra-ios/sinatra-ios-Prefix.pch";
+				INFOPLIST_FILE = "sinatra-ios/sinatra-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6661216615CB13AC00A75A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sinatra-ios/sinatra-ios-Prefix.pch";
+				INFOPLIST_FILE = "sinatra-ios/sinatra-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6661214615CB13AC00A75A2D /* Build configuration list for PBXProject "sinatra-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6661216215CB13AC00A75A2D /* Debug */,
+				6661216315CB13AC00A75A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6661216415CB13AC00A75A2D /* Build configuration list for PBXNativeTarget "sinatra-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6661216515CB13AC00A75A2D /* Debug */,
+				6661216615CB13AC00A75A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6661214315CB13AC00A75A2D /* Project object */;
+}
